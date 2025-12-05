@@ -26,3 +26,12 @@ I’ve previously worked with Flutter, REST APIs, and state management in produc
 - Structuring the app with MVVM and clean folder separation
 - Handling async APIs and location streams
 - Designing a clean and responsive UI suitable for real users
+
+## how to run the Application
+
+- Add your Google Maps & Geocoding API key in a .env file:
+- GOOGLE_MAPS_API_KEY=YOUR_API_KEY
+
+- In terminal, run:
+- flutter pub get
+- flutter run

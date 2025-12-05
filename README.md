@@ -1,37 +1,53 @@
 # Location Tracking Module – PickMyTask Flutter Intern Assessment
 
-This Flutter app implements a location tracking module using **MVVM** architecture and **Provider** for state management.
+This Flutter application implements a real-time **location tracking module** using **MVVM architecture** and **Provider** for scalable, maintainable state management. It retrieves the user's live coordinates, reverse-geocodes them into readable address details, tracks movement continuously, and stores the location history in memory — without using any database.
+
+---
 
 ## Features
 
-- Location permission handling (coarse/fine)
-- Show current coordinates (lat/lng), city, state, pincode
-- Auto-updates when user moves
-- Location history with timestamps
-- In-memory state (no DB)
-- Google Geocoding API for reverse geocoding
-- Optional map view with marker (Google Maps)
+### Core Features
+- Handles **coarse and fine** location permissions  
+- Displays **latitude, longitude, city, state, and pincode**  
+- Shows **last updated timestamp**  
+- Auto-updates location as the user moves  
+- Maintains **location history** (in-memory)  
+- Reverse-geocoding using **Google Geocoding API**  
+- Clean and responsive UI (Material 3)
 
-## Tech Stack
+### Bonus Features
+- Optional **Google Map view** with:
+  - Live marker
+  - Current location visualization
 
-- Flutter, Dart
-- MVVM + Provider (`ChangeNotifier`)
-- `geolocator` + `permission_handler` for location & permissions
-- `google_maps_flutter` for map view
-- Google Geocoding API via `http`
+---
 
-## How My Experience Helped
+## 🛠 Tech Stack
 
-I’ve previously worked with Flutter, REST APIs, and state management in production-like apps (event apps, IoT app). That experience helped in:
-- Structuring the app with MVVM and clean folder separation
-- Handling async APIs and location streams
-- Designing a clean and responsive UI suitable for real users
+- **Flutter (Dart)**
+- **MVVM + Provider (`ChangeNotifier`)**
+- `geolocator` — live location updates  
+- `permission_handler` — permission control  
+- `google_maps_flutter` — map view  
+- `http` — API requests  
+- `flutter_dotenv` — secure environment variables  
 
-## how to run the Application
+---
 
-- Add your Google Maps & Geocoding API key in a .env file:
-- GOOGLE_MAPS_API_KEY=YOUR_API_KEY
+## 💡 How My Experience Helped
 
-- In terminal, run:
-- flutter pub get
-- flutter run
+My hands-on experience with **Flutter, REST API integration, real-time updates, and clean architecture** helped me complete this module efficiently. It enabled me to:
+
+- Implement a clean **MVVM flow**  
+- Handle async location streams and update UI smoothly  
+- Use Google APIs for mapping and geocoding  
+- Build clean, reusable UI widgets  
+- Deliver a simple and user-friendly interface  
+
+---
+
+##  How to Run the Application
+
+### **1️ Add your API key to `.env`**
+
+Create a file named `.env` in the root directory:

@@ -34,7 +34,7 @@ This Flutter application implements a real-time **location tracking module** usi
 
 ---
 
-## 💡 How My Experience Helped
+## How My Experience Helped
 
 My hands-on experience with **Flutter, REST API integration, real-time updates, and clean architecture** helped me complete this module efficiently. It enabled me to:
 
@@ -50,4 +50,5 @@ My hands-on experience with **Flutter, REST API integration, real-time updates, 
 
 ### **1️ Add your API key to `.env`**
 
-Create a file named `.env` in the root directory:
+Create a file named `.env` in the root directory and add a variable `GOOGLE_MAPS_API_KEY=[your api key]`
+

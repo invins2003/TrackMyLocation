@@ -52,3 +52,5 @@ My hands-on experience with **Flutter, REST API integration, real-time updates, 
 
 Create a file named `.env` in the root directory and add a variable `GOOGLE_MAPS_API_KEY=[your api key]`
 
+### **2 Add your API key to `/android/src/main/AndroidMainfest.xml`**
+
